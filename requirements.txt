@@ -4,4 +4,5 @@ python-box==6.1.0
 PyYAML==6.0
 Werkzeug==2.2.2
 wincertstore==0.2
+pikepdf==6.2.1
 -e .
