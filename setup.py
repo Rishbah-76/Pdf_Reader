@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "pdf_Reader"
+REPO_NAME = "Pdf_Reader"
 AUTHOR_USER_NAME = "Rishbah-76"
 SRC_REPO = "pdfReader"
 AUTHOR_EMAIL = "rbrishabh76@gmail.com"
