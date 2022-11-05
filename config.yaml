@@ -1,2 +1,6 @@
 upload_folder:
-  
+  UPLOAD_FOLDER: uploads/
+
+allowed_extensions:
+  ALLOWED_EXTENSIONS:  pdf
+  #txt, png, jpg, jpeg, gif
