@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/pdfReader/__init__.py
+src/pdfReader.egg-info/PKG-INFO
+src/pdfReader.egg-info/SOURCES.txt
+src/pdfReader.egg-info/dependency_links.txt
+src/pdfReader.egg-info/requires.txt
+src/pdfReader.egg-info/top_level.txt
+src/pdfReader/utils/__init__.py
+src/pdfReader/utils/common.py

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pdfReader
+Version: 0.0.0
+Summary: A small python package to rotate a page within a pdf file
+Home-page: https://github.com/Rishbah-76/Pdf_Reader
+Author: Rishbah-76
+Author-email: rbrishabh76@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Rishbah-76/Pdf_Reader/issues
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+
+# PDF Reader
+## A rest API PACKAGE FOR PDF PAGE ROTATION.
