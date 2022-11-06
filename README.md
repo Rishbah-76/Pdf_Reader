@@ -35,12 +35,28 @@
  </table>
 
 ## How to use this package
-STEP 1: ./init_setup.sh
-
+STEP 1: 
+```bash./init_setup.sh
+```
+```bash
 STEP 2: python src/pdfReader/entity/rotationAPI.py 
-
+```
 
 ## What to keep in mind
 1) Times of Rotation/degrees of rotation is required
 2) We have given 3 options - select Every page - select Specific page - select Range of pages
 3) We can choose one of abve 3 choices
+
+
+## Location of Updating pdffile
+1) Updated pdf file will be present in /tmp folder
+2) All the uploaded files will be present in /uploads
+3) TO change default folder use configs.yaml
+
+
+
+```bash
+Author: Rishabh
+Email: rbrishabh76@gmail.com
+
+```
