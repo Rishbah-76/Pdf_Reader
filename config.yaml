@@ -6,5 +6,5 @@ allowed_extensions:
   #txt, png, jpg, jpeg, gif
 
 pdf_output:
-  filepath: src/pdfReader/tmp
+  filepath: tmp/
 
