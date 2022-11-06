@@ -3,8 +3,36 @@
 
 
 ## How does it look's
-![img](https://github.com/Rishbah-76/Pdf_Reader/blob/master/src/pdfReader/entity/static/ss/1.jpg?raw=true)
+<table>
+  <tr>
+    <td><img src="src/pdfReader/entity/static/ss/5.jpg" ></td>
+  </tr>
+ </table>
 
+<!-- ![img](https://github.com/Rishbah-76/Pdf_Reader/blob/master/src/pdfReader/entity/static/ss/5.jpg?raw=true) -->
+
+
+<table>
+  <tr>
+    <td>Initial Upload Look: Step-01</td>
+     <td>Uploading a file: Step-02</td>
+  </tr>
+  <tr>
+    <td><img src="src/pdfReader/entity/static/ss/1.jpg" ></td>
+    <td><img src="src/pdfReader/entity/static/ss/2.jpg"> </td>
+  </tr>
+ </table>
+
+ <table>
+  <tr>
+    <td>Enter User's Input: Step-03</td>
+     <td>Processing and Output as json: Step-04</td>
+  </tr>
+  <tr>
+    <td><img src="src/pdfReader/entity/static/ss/3.jpg" ></td>
+    <td><img src="src/pdfReader/entity/static/ss/4.jpg"> </td>
+  </tr>
+ </table>
 
 ## How to use this package
 STEP 1: ./init_setup.sh
