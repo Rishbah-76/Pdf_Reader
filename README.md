@@ -3,7 +3,8 @@
 
 
 ## How does it look's
-![img](https://github.com/Rishbah-76/Pdf_Reader/blob/master/src/pdfReader/entity/static/ss/1.jpg)
+![img](https://github.com/Rishbah-76/Pdf_Reader/blob/master/src/pdfReader/entity/static/ss/1.jpg?raw=true)
+
 
 ## How to use this package
 STEP 1: ./init_setup.sh
