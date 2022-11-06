@@ -4,3 +4,7 @@ upload_folder:
 allowed_extensions:
   ALLOWED_EXTENSIONS:  pdf
   #txt, png, jpg, jpeg, gif
+
+pdf_output:
+  filepath: src/pdfReader/tmp
+
