@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          background: #555;
+        }
+        
+        .content {
+          max-width: 500px;
+          margin: auto;
+          background: white;
+          padding: 10px;
+        }
+
+        .line {
+            border-bottom: 2px solid red;
+            margin-top: 2px;
+            width: 100%;
+        }
+        </style>
+  <body>
+    <div class="content">
+<form action="{{ url_for('rotatepdffile')}}" method="post">
+    <h1>Please select your INPUT's</h1>
+
+
+    <div class="line"></div><br>
+
+    <label for="bt0">1) Please Enter them time of Rotation: </label>
+    <input type="input" id="bt0" name="deg"  placeholder="1,2,3.....n" required><br><br>
+
+    <div class="line"></div><br>
+
+    <label for="bt1">2) Every Page</label>
+    <input type="checkbox" id="bt1" name="all" value="True"><br>
+    <div class="line"></div><br>
+
+    <label for="bt2">3) Enter the Single Page Number:   </label>
+    <input type="input" id="bt2" name="specific" value="None"><br> <br>
+    <div class="line"></div><br>
+
+    <label for="bt3">4) Enter the Range Of Pages: </label>
+    <input type="input" id="bt3" name="lst"  value="None" placeholder="It has to be like this 2-7"><br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<hr>
+{% for file in files %}
+  <img src="{{ url_for('upload', filename=file) }}" style="width: 64px">
+{% endfor %}
+</div>
+</body>
+</html>
